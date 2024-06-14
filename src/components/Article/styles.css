@@ -1,0 +1,53 @@
+#article {
+    display: flex;
+    gap: 1rem;
+    transition: 0.3s ease-in-out;
+    padding: 0.8rem;
+    border-radius: 1rem;
+}
+#article:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0.2rem 0.8rem rgba(152,223,175,0.25) ;
+}
+#article .article-infos h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+}
+#article .article-infos h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #8695A4;
+    margin-bottom: 1rem;
+}
+#article .article-infos p{
+    font-size: 1rem;
+}  
+img {
+    width: 30vh;
+    height: 22vh;
+    border-radius: 1rem;
+    transition: 0.3s ease-in-out;
+}
+img:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0.2rem 0.8rem rgba(152,223,175,0.25) ;
+}
+.like-button {
+    padding: 1rem;
+    background-color: #5BB577;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.like-button .icon-button {
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.icon-button:hover{
+    transform: scale(1.1);
+    color: #3d3d3d;
+    
+}

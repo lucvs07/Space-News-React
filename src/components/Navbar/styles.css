@@ -1,0 +1,52 @@
+
+.App-header {
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding:  0.5rem 2rem;
+    background-color: #333;
+    animation: pulse-shadow 5s infinite;
+  }
+  
+  @keyframes pulse-shadow {
+    50%{
+      box-shadow: 0 0.2rem 0.8rem rgba(152,223,175,0.25);
+    }
+  }
+  
+  header nav#navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+  
+  header nav#navbar .nav-brand{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .icon {
+    color: #5BB577;
+  }
+  
+  
+  header nav#navbar ul.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    gap: 1rem;
+  }
+  
+  header nav#navbar ul.nav-list li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  header nav#navbar ul.nav-list li a:hover{
+    color: #5BB577;
+    transition: color 0.3s ease-in-out;
+  } 
