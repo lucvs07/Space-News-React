@@ -22,6 +22,7 @@ export function Article (props){
                     className="icon-button" 
                     size={32} 
                     weight="bold"
+                    href={props.urlArticle}
                 />
             </div>
         </article>
